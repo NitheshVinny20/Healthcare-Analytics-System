@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAS</title>
+    <link rel="stylesheet" href="CSS/css.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-flex">
+
+            <div id="branding">
+                <a href="index.html" id="home-link">
+                    <h1>Healthcare Analytics System <span class="highlight">HAS</span></h1>
+                </a>
+            </div>
+
+            <!-- MOBILE MENU BUTTON -->
+            <div class="menu-btn" id="menu-btn">
+                &#9776;
+            </div>
+
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#showcase">Services</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <img src="images/first.jpg" alt="appointment" class="hero-bg">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h2>Transform Your Healthcare Strategy</h2>
+                <p>Partner with Healthcare Analytics System (HAS) in Charlotte for cutting-edge insights and consulting services. Elevate your operations and patient outcomes today.</p>
+            </div>
+            <button class="hero-cta">Book a Free 15-Minute Consultation</button>
+        </div>
+    </section>
+    
+    <br>
+    <div class="services">
+        <section id="showcase" class="container">
+            <figure class="showcase-item">
+                <img src="images/kpi.png" alt="Healthcare Image">
+                <figcaption><h3>KPI Dashboard System</h3></figcaption>
+            </figure>
+
+            <figure class="showcase-item">
+                <img src="images/Reportautomation.png" alt="Analytics Image">
+                <figcaption><h3>Reporting Automation + AI Insights</h3></figcaption>
+            </figure>
+
+            <figure class="showcase-item">
+                <img src="images/operational-efficiency.png" alt="System Image">
+                <figcaption><h3>Operational Efficiency</h3></figcaption>
+            </figure>
+        </section>
+    </div>
+
+    <section class="contact" id="contact">
+        <div class="container">
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Healthcare Analytics System (HAS). All rights reserved.</p>
+            <div class="footer-contact">
+                <p><a href="mailto:example@gmail.com">Email: example@gmail.com</a></p>
+                <p><a href="tel:+1-704-555-0123">Phone: +1 (704) 555-0123</a></p>
+            </div>
+        </div>
+    </footer>
+
+<script>
+    // Mobile toggle
+    const menuBtn = document.getElementById("menu-btn");
+    const navMenu = document.getElementById("nav-menu");
+
+    menuBtn.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+    });
+</script>
+
+</body>
+</html>
